@@ -1,0 +1,17 @@
+{
+	"manifest_version": 3,
+	"name": "Gemini Query Param",
+	"version": "1.0",
+	"description": "GeminiにURL経由でプロンプトを自動送信。Raycast等の外部ツールからの一発起動を可能にし、送信後はURLを自動でクリーンアップします。",
+	"permissions": ["activeTab"],
+	"content_scripts": [
+        {
+            "matches": ["https://gemini.google.com/app*"],
+            "exclude_matches": [
+                "https://gemini.google.com/app/*"
+            ],
+            "js": ["content.js"],
+            "run_at": "document_start"
+        }
+    ]
+  }
