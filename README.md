@@ -1,4 +1,4 @@
-# Chrome Extensions
+# Chrome 拡張機能
 
 Chrome拡張機能のコレクションです。各拡張は独立したフォルダに格納されています。
 
