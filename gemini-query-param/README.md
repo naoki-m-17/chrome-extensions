@@ -38,6 +38,8 @@ Raycastの **Create Quicklink** で以下の通り設定してください。
 | **Link** | `https://gemini.google.com/app?q={argument}` |
 | **Open With** | Google Chrome |
 
+さらに、Raycastの **Manage Fallback Command** にこのQuicklinkを登録しておくと、Raycastの入力欄にプロンプトを直接書いて起動できるようになります。
+
 ## ファイル構成
 ```text
 gemini-query-param/
