@@ -1,0 +1,14 @@
+{
+	"manifest_version": 3,
+	"name": "Claude Query Param",
+	"version": "1.0",
+	"description": "ClaudeにURL経由でプロンプトを自動送信。Raycast等の外部ツールからの一発起動を可能にします。",
+	"permissions": ["activeTab"],
+	"content_scripts": [
+        {
+            "matches": ["https://claude.ai/new*"],
+            "js": ["content.js"],
+            "run_at": "document_start"
+        }
+    ]
+  }

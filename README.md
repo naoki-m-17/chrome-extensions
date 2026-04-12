@@ -7,3 +7,4 @@ Chrome拡張機能のコレクションです。各拡張は独立したフォ�
 | 拡張 | 説明 |
 | :--- | :--- |
 | [gemini-query-param](./gemini-query-param/) | GeminiにURLクエリパラメータ（`?q=`）経由でプロンプトを自動送信。Raycast等からの一発起動に対応 |
+| [claude-query-param](./claude-query-param/) | ClaudeにURLクエリパラメータ（`?q=`）経由でプロンプトを自動送信。Raycast等からの一発起動に対応 |
